@@ -4,6 +4,9 @@ import com.ThreadClasses.GoogleFeatureThreads;
 
 public class GoogleTestRunner {
 
+	//How to execute from command line
+	//G:\Kiran\Java\eclipseWorkSpace\JavaMultiThreading>mvn exec:java -Dexec.mainClass="com.TestRunner.GoogleTestRunner" -Dchrome=2 -Dfirefox=2
+	
 	public static void main(String[] args) {
 		
 		int chromeCount = Integer.parseInt(System.getProperty("chrome"));
