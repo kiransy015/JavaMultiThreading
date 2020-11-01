@@ -2,6 +2,9 @@ package com.TestRunner;
 
 import com.ThreadClasses.GoogleFeatureThreads;
 
+//How to execute from command line
+//G:\Kiran\Java\eclipseWorkSpace\JavaMultiThreading>mvn exec:java -Dexec.mainClass="com.TestRunner.GoogleTestRunner" -Dchrome=2 -Dfirefox=2
+
 public class GoogleTestRunner {
 
 	public static void main(String[] args) {
